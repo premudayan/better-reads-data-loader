@@ -1,4 +1,4 @@
-package connection;
+package com.prem.betterreadsdataloader.connection;
 
 import java.io.File;
 

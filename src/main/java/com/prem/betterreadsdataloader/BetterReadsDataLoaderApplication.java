@@ -2,13 +2,13 @@ package com.prem.betterreadsdataloader;
 
 import java.nio.file.Path;
 
+import com.prem.betterreadsdataloader.connection.DataStaxAstraProperties;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.cassandra.CqlSessionBuilderCustomizer;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
-
-import connection.DataStaxAstraProperties;
 
 @SpringBootApplication
 @EnableConfigurationProperties(DataStaxAstraProperties.class)
